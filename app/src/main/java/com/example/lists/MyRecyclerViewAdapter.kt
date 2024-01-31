@@ -27,12 +27,10 @@ class MyRecyclerViewAdapter(var heroes: MutableList<Hero> = mutableListOf()) :
     override fun onBindViewHolder(holder: MyRecycleViewViewHolder, position: Int) {
         val hero = heroes[position]
 
-        // Load image using Glide or any other image loading library
         Glide.with(holder.itemView)
-            .load(hero.images.sm) // Use the desired size (xs, sm, md, lg)
+            .load(hero.images.sm)
             .into(holder.imageView)
 
-        // Concatenate textual information and set it to the title TextView
         val titleText = "Name: ${hero.name}\n" +
                 "Slug: ${hero.slug}\n" +
                 "Powerstats: ${hero.powerstats}\n" +

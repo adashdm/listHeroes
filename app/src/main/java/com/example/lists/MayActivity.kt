@@ -62,10 +62,7 @@ data class Connections(
 )
 
 data class Images(
-    val xs: String,
-    val sm: String,
-    val md: String,
-    val lg: String
+    val sm: String
 )
 
 class MayActivity : Activity() {
@@ -89,7 +86,7 @@ class MayActivity : Activity() {
                     adapter.notifyDataSetChanged()
                 }
             }, {
-                Toast.makeText(this, "Error $it", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Error -> $it", Toast.LENGTH_SHORT).show()
             })
     }
 }
