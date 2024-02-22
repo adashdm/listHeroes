@@ -4,9 +4,9 @@ import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
+import javax.inject.Inject
 
-object ApiClient {
-    private const val BASE_URL = "https://akabab.github.io"
+class ApiClient @Inject constructor() {
 
     private val httpClient = OkHttpClient.Builder()
 
@@ -16,4 +16,8 @@ object ApiClient {
         .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
         .client(httpClient.build())
         .build()
+
+    companion object {
+        private const val BASE_URL = "https://akabab.github.io"
+    }
 }

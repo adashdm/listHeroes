@@ -1,13 +1,19 @@
-#Wed Jan 31 20:40:44 EET 2024
-base.0=C\:\\Users\\admin\\Desktop\\Lesson_16\\Lists\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\admin\\Desktop\\Lesson_16\\Lists\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\admin\\Desktop\\Lesson_16\\Lists\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.3=C\:\\Users\\admin\\Desktop\\Lesson_16\\Lists\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Tue Feb 20 12:45:15 EET 2024
+base.0=C\:\\Users\\adashevskyi.dmytro\\AndroidStudioProjects\\listHeroes\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\adashevskyi.dmytro\\AndroidStudioProjects\\listHeroes\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\adashevskyi.dmytro\\AndroidStudioProjects\\listHeroes\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.3=C\:\\Users\\adashevskyi.dmytro\\AndroidStudioProjects\\listHeroes\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.4=C\:\\Users\\adashevskyi.dmytro\\AndroidStudioProjects\\listHeroes\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.5=C\:\\Users\\adashevskyi.dmytro\\AndroidStudioProjects\\listHeroes\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=8/classes.dex
 path.3=classes2.dex
+path.4=10/classes.dex
+path.5=7/classes.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex
 renamed.3=classes4.dex
+renamed.4=classes5.dex
+renamed.5=classes6.dex

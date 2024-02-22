@@ -8,6 +8,8 @@ import com.bumptech.glide.Glide
 import com.example.lists.Hero
 import com.example.lists.R
 
+
+
 class MyRecycleViewViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     val title: TextView = itemView.findViewById(R.id.title)
     val imageView: ImageView = itemView.findViewById(R.id.imageView)
@@ -26,19 +28,10 @@ class MyRecyclerViewAdapter(var heroes: MutableList<Hero> = mutableListOf()) :
 
     override fun onBindViewHolder(holder: MyRecycleViewViewHolder, position: Int) {
         val hero = heroes[position]
-
         Glide.with(holder.itemView)
             .load(hero.images.sm)
             .into(holder.imageView)
-
-        val titleText = "Name: ${hero.name}\n" +
-                "Slug: ${hero.slug}\n" +
-                "Powerstats: ${hero.powerstats}\n" +
-                "Appearance: ${hero.appearance}\n" +
-                "Biography: ${hero.biography}\n" +
-                "Work: ${hero.work}\n" +
-                "Connections: ${hero.connections}\n"
-
+        val titleText = "Name: ${hero.name}\n"
         holder.title.text = titleText
     }
 }
